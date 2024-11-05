@@ -1,0 +1,20 @@
+{
+  "name": "node-red-gpdomotics-pdfjs",
+  "version": "0.0.1",
+  "description": "Node-RED node to extract pdf data using pdfjs",
+  "dependencies": {
+    "pdfjs-dist": "^2.2.228"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpdomotics/node-red-gpdomotics-pdfjs.git"
+  },
+  "author": "gpdomotics",
+  "license": "ISC",
+  "keywords": ["node-red", "pdf"],
+  "node-red": {
+    "nodes": {
+      "pdf": "pdf.js"
+    }
+  }
+}
